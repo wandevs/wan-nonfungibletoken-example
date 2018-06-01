@@ -12,7 +12,7 @@
     "compile": "truffle compile",
     "console": "truffle console",
     "lint": "eslint './**/*.js?(x)'",
-    "migrate": "truffle migrate",
+    "migrate": "truffle migrate --network development",
     "networks": "truffle networks",
     "test": "truffle test"
   },
@@ -51,6 +51,12 @@
   "devDependencies": {
     "eslint": "^4.19.1",
     "ethjs-util": "^0.1.4",
-    "truffle": "^4.1.11"
+    "truffle": "^4.1.11",
+    "web3": "^0.20.2"
+  },
+  "dependencies": {
+    "npm": "^6.1.0",
+    "to": "^0.2.9",
+    "update": "^0.7.4"
   }
 }
