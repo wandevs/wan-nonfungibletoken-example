@@ -11,6 +11,7 @@ Purpose of this implemetation is to provide a good starting point for anyone who
 Setup:
 - Windows, Linux or Mac OS X
 - Wallet account with a sufficient balance
+
 This example was implemented using Truffle v4.1.7 and Solidity v0.4.23.
 
 Simply clone the repository and install npm packages:
