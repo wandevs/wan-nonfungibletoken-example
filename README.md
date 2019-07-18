@@ -2,9 +2,9 @@
 
 # ERC-721 Token
 
-This is a complete implementation of the [ERC-721](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-721.md) non-fungible token standard for the Ethereum blockchain. This is an open source project build with [Truffle](http://truffleframework.com) framework.
+This is a complete implementation of the [ERC-721](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-721.md) non-fungible token standard for the Wanchain blockchain. This is an open source project build with [Truffle](http://truffleframework.com) framework.
 
-Purpose of this implemetation is to provide a good starting point for anyone who wants to use and develop non-fungible tokens on the Ethereum blockchain. Instead of re-implementing the ERC-721 yourself you can use this code which has gone through multiple audits and we hope it will be extensively used by the community in the future.
+Purpose of this implemetation is to provide a good starting point for anyone who wants to use and develop non-fungible tokens on the Wanchain blockchain. Instead of re-implementing the ERC-721 yourself you can use this code which has gone through multiple audits and we hope it will be extensively used by the community in the future.
 
 ## Installation
 
@@ -48,7 +48,7 @@ Next step is to deploy the contract on the testnet.
 Sync your client with the testnet
 
 ```
-$ go-wanchain/build/bin/gwan --testnet --rpc --rpcapi=eth,net,wan,web3,personal --etherbase "<WALLET ADDRESS>" --unlock "<WALLET ADDRESS>" --password pwd.txt --mine --minerthreads=1 --wanstats Texas-2:admin@54.193.4.239:80
+$ go-wanchain/build/bin/gwan --testnet --rpc --rpcapi=eth,net,wan,web3,personal --etherbase "<WALLET ADDRESS>" --unlock "<WALLET ADDRESS>" --password pwd.txt --mine --minerthreads=1 --wanstats XYZ:admin@<WANSTATS ADDRESS>
 ```
 
 Open project's `truffle.js` and edit the following items:
