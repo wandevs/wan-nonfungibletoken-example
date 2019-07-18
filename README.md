@@ -89,6 +89,6 @@ In the Truffle console, you can interact with the contract:
 > MyNFTokenInstance.methods.symbol().call();
 ```
 
-## Licence
+## License
 
 See [LICENSE](./LICENSE) for details.
