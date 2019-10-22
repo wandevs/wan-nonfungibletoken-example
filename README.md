@@ -17,7 +17,7 @@ This example was implemented using Truffle v4.1.7 and Solidity v0.4.23.
 Simply clone the repository and install npm packages:
 
 ```
-$ git clone git@github.com:0xcert/ethereum-erc721.git
+$ git clone https://github.com/wandevs/wan-nonfungibletoken-example.git
 $ cd ethereum-erc721
 $ npm install
 ```
